@@ -1,0 +1,10 @@
+{
+  "name": "leaflet-map-starterkit",
+  "version": "0.0.1",
+  "main": ["index.html", "index.js", "style.css"],
+  "dependencies": {
+    "normalize-css": "~2.1.0",
+    "jquery": "~1.9.1",
+    "leaflet": "~0.5.1"
+  }
+}
