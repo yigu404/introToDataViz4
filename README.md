@@ -1,0 +1,1 @@
+A nice template for starting a new project with leaflet.
