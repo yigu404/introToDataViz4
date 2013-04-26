@@ -1,7 +1,6 @@
-$.getJSON(http://data.seattle.gov/api/views/3k2p-39jp/rows.json?jsonp=callback&max_rows=25), function (results) 
+$.getJSON(http://data.seattle.gov/api/views/3k2p-39jp/rows.json?jsonp=callback&max_rows=25', function (results) 
 {
     console.log(result,data);
-    
     $.each(result.data,function(i,value){
         console.log(results['data'][0][16]);
     });
