@@ -15,7 +15,7 @@ $.getJSON('http://data.seattle.gov/api/views/3k2p-39jp/rows.json?jsonp=callback&
     console.log(value[20])
     
     L.marker(value[16],value[16].addTo(map)
-     .binPopup('<h3>'+value[12]+'<h3/>'+value[16]+'<br>'+value[15]);
+     .bindPopup('<h3>'+value[12]+'<h3/>'+value[16]+'<br>'+value[15]);
     
     });
 };)
