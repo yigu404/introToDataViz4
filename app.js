@@ -21,8 +21,6 @@ $.getJSON('http://data.seattle.gov/api/views/3k2p-39jp/rows.json?jsonp=callback&
     });
 };)
 
-
-
 var map = L.map('map').setView([47, -112], 13);
 
 L.tileLayer('http://{s}.tile.cloudmade.com/61d2e95f748e4d1da82b12d461f5174e/997/256/{z}/{x}/{y}.png', {
