@@ -1,8 +1,23 @@
 $.getJSON(http://data.seattle.gov/api/views/3k2p-39jp/rows.json?jsonp=callback&max_rows=25', function (results) 
 {
     console.log(result,data);
-    $.each(result.data,function(i,value){
+    
+        $.each(result.data,function(i,value){
         console.log(results['data'][0][16]);
+    
+    // address
+    console.log(value[16])
+    // description
+    console.log(value[12])
+    // time
+    console.log(value[15])
+    //lat,long
+    console.log(value[21])
+    console.log(value[20])
+    
+    L.marker(value[16],value[16].addTo(map)
+     .binPopup('<h3>'+value[12]+'<h3/>'+value[16]+'<br>'+value[15]);
+    
     });
 };)
 
